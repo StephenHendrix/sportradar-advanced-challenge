@@ -1,0 +1,1 @@
+cat init-table.sql | docker exec -i $containerName psql -U $POSTGRES_USER -d $POSTGRES_DB

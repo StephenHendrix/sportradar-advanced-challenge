@@ -1,0 +1,13 @@
+{
+  "name": "sportradar-advanced-challenge",
+  "version": "1.0.0",
+  "description": "App to retrieve real-time NHL game data",
+  "main": "index.js",
+  "repository": "https://github.com/StephenHendrix/sportradar-advanced-challenge.git",
+  "license": "MIT",
+  "scripts": {
+    "init-db": ". .env && bash scripts/init-database.sh",
+    "init-table": ". .env && bash scripts/init-table.sh",
+    "kill-container": ". .env && bash scripts/kill-container.sh"
+  }
+}
